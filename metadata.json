@@ -1,0 +1,6 @@
+{
+  "name": "Mash DataSub",
+  "description": "Secure, instant data bundle top-up, airtime, cable TV, and utility payment platform for Nigeria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
