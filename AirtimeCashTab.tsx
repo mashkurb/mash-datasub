@@ -18,7 +18,7 @@ import {
   X,
   FileText
 } from 'lucide-react';
-import { apiRequest } from '../../api';
+import { apiRequest } from './api';
 import { AirtimeCashRequest, AirtimeCashSettings } from '../../types';
 
 export const AirtimeCashTab: React.FC = () => {
