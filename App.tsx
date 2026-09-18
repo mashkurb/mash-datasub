@@ -3,31 +3,32 @@ import { apiRequest, getAuthToken, removeAuthToken } from './api';
 import { UserProfile, ReceiptData } from './types';
 
 // Auth Views
-import { LoginView } from './components/Auth/LoginView';
-import { SignUpView } from './components/Auth/SignUpView';
-import { ForgotPasswordView } from './components/Auth/ForgotPasswordView';
+import { LoginView } from './LoginView';
+import { SignUpView } from './SignUpView';
+import { ForgotPasswordView } from './ForgotPasswordView';
 
 // Customer Views & Layout
-import { Header } from './components/Customer/Header';
-import { BottomNav, CustomerTab } from './components/Customer/BottomNav';
-import { HomeView } from './components/Customer/HomeView';
-import { DataPurchaseView } from './components/Customer/DataPurchaseView';
-import { AirtimePurchaseView } from './components/Customer/AirtimePurchaseView';
-import { ElectricityView } from './components/Customer/ElectricityView';
-import { TvCableView } from './components/Customer/TvCableView';
-import { ExamPinView } from './components/Customer/ExamPinView';
-import { AirtimeToCashView } from './components/Customer/AirtimeToCashView';
-import { TransactionsView } from './components/Customer/TransactionsView';
-import { WalletView } from './components/Customer/WalletView';
-import { ProfileView } from './components/Customer/ProfileView';
-import { FundWalletModal } from './components/Customer/FundWalletModal';
-import { TransferMoneyModal } from './components/Customer/TransferMoneyModal';
-import { ReceiptModal } from './components/Customer/ReceiptModal';
-import { SecurityPinModal } from './components/Customer/SecurityPinModal';
+import { Header } from './Header';
+import { BottomNav, CustomerTab } from './BottomNav';
+import { HomeView } from './HomeView';
+import { DataPurchaseView } from './DataPurchaseView';
+import { AirtimePurchaseView } from './AirtimePurchaseView';
+import { ElectricityView } from './ElectricityView';
+import { TvCableView } from './TvCableView';
+import { ExamPinView } from './ExamPinView';
+import { AirtimeToCashView } from './AirtimeToCashView';
+import { TransactionsView } from './TransactionsView';
+import { WalletView } from './WalletView';
+import { ProfileView } from './ProfileView';
+import { FundWalletModal } from './FundWalletModal';
+import { TransferMoneyModal } from './TransferMoneyModal';
+import { ReceiptModal } from './ReceiptModal';
+import { SecurityPinModal } from './SecurityPinModal';
 
 // Admin View
-import { AdminDashboard } from './components/Admin/AdminDashboard';
-import { Shield, ShieldAlert, Loader2 } from 'lucide-react';
+import { AdminDashboard } from './AdminDashboard';
+
+import { ShieldAlert, Loader2 } from 'lucide-react';
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState<UserProfile | null>(null);
