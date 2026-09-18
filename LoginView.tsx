@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Lock, Mail, Fingerprint, Eye, EyeOff, AlertCircle, ArrowRight, Loader2 } from 'lucide-react';
-import { apiRequest, setAuthToken } from '../../api';
+import { apiRequest, setAuthToken } from './api';
 import { UserProfile } from '../../types';
 
 interface LoginViewProps {
