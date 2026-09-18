@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Lock, User, Phone, ArrowLeft, ArrowRight, Loader2, AlertCircle, CheckCircle2, Tag } from 'lucide-react';
-import { apiRequest } from '../../api';
+import { apiRequest } from './api';
 import { sanitizeNigerianPhoneInput, validateNigerianPhone } from '../../utils/phoneValidation';
 
 interface SignUpViewProps {
