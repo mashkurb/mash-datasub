@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Smartphone, ArrowLeft, ArrowRight, Loader2, AlertCircle, Lock, ShieldCheck } from 'lucide-react';
-import { apiRequest } from '../../api';
+import { apiRequest } from './api';
 import { UserProfile, ReceiptData } from '../../types';
 import { PaymentConfirmationModal } from './PaymentConfirmationModal';
 import { sanitizeNigerianPhoneInput, validateNigerianPhone } from '../../utils/phoneValidation';
