@@ -16,7 +16,7 @@ import {
   ListOrdered
 } from 'lucide-react';
 import { UserProfile, AirtimeCashSettings, AirtimeCashRequest } from '../../types';
-import { apiRequest } from '../../api';
+import { apiRequest } from './api';
 import { sanitizeNigerianPhoneInput, validateNigerianPhone } from '../../utils/phoneValidation';
 
 interface AirtimeToCashViewProps {
