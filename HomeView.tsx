@@ -18,7 +18,7 @@ import {
   Send
 } from 'lucide-react';
 import { UserProfile, TransactionItem, ReceiptData } from '../../types';
-import { apiRequest } from '../../api';
+import { apiRequest } from './api';
 
 interface HomeViewProps {
   user: UserProfile;
