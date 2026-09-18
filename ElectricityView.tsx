@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Zap, ArrowLeft, ArrowRight, Loader2, AlertCircle, Lock } from 'lucide-react';
-import { apiRequest } from '../../api';
+import { apiRequest } from './api';
 import { UserProfile, ReceiptData } from '../../types';
 import { PaymentConfirmationModal } from './PaymentConfirmationModal';
 
